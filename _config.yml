@@ -1,36 +1,10 @@
 # Site Settings
-url: ""
-baseurl: ""  # Leave blank if hosted at root of the GitHub Pages site
-title: ""
-description: ""
-name: &name ""
 lang: "en"
 timezone: "UTC"
 show_downloads: false
 theme: jekyll-theme-time-machine
-google_analytics: YOUR-GA-TRACKING-ID  # Replace with your actual Google Analytics ID
+google_analytics:  # Replace with Google Analytics ID
 
-# Author Info
-author:
-  name: *name
-  bio: "Electronics tinkerer, cybersecurity adventurer, and space tech dreamer"
-
-# Plugins (GitHub Pages-supported)
-plugins:
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-seo-tag
-
-# SEO & Sitemap
-permalink: pretty
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: "default"
-      author: *name
-      
 footer_left: "© 2025 IndieSpaceViking"
 footer_right: "Privacy Policy"
 
