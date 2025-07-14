@@ -59,9 +59,3 @@ If you like what I do and want to support more content like this:
 
 [🪙 Donate a Coffee](/donate)
 </div>
-
----
-
-<div style="text-align: center; font-size: 0.9rem; margin-top: 2rem;">
-  Made with 💻 and ☕ on Earth by <strong>IndieSpaceViking</strong>
-</div>
