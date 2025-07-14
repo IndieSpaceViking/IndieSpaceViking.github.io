@@ -9,24 +9,28 @@ description: "Planet Viking – a hub for CTF write-ups, electronics projects, t
   <p><strong>CTF strategies, embedded systems, cybersecurity adventures, and more.</strong></p>
 </div>
 
----
+<hr>
 
 ## ✨ About This Site
 
-Welcome to **Planet Viking** 
-This is the official archive and active blog space for:
+<div style="max-width: 700px; margin: 0 auto; text-align: center;">
+
+Welcome to **Planet Viking** – the official archive and blog space for:
 
 - 🧠 Cybersecurity & CTF write-ups  
 - ⚡ Electronics & embedded systems projects  
-- 🛠️ Tools reviews and experiments  
+- 🛠️ Tool reviews and experiments  
 - 📚 Tutorials on tech topics I love  
 
 💬 _"Learning by doing and hacking by curiosity."_
+
+</div>
 
 ---
 
 ## 🔥 Latest Write-ups
 
+<div style="max-width: 700px; margin: 0 auto;">
 {% assign latest_posts = site.posts | slice: 0, 5 %}
 <ul>
   {% for post in latest_posts %}
@@ -34,38 +38,48 @@ This is the official archive and active blog space for:
   {% endfor %}
 </ul>
 
-[🔎 View All Write-ups](/writeups)
+<p style="text-align: center;"><a href="/writeups">🔎 View All Write-ups</a></p>
+</div>
 
 ---
 
 ## 🗺️ Explore the Site
 
-### 🛡️ Capture The Flag (CTF)
+<div style="max-width: 700px; margin: 0 auto;">
+<h3 style="text-align: center;">🛡️ Capture The Flag (CTF)</h3>
+<ul>
+  <li><a href="/ctf/tryhackme">TryHackMe (THM)</a></li>
+</ul>
 
-- [TryHackMe (THM)](/ctf/tryhackme)
+<h3 style="text-align: center;">⚡ Projects & Tutorials</h3>
+<ul>
+  <li><a href="/projects/wireless">Wireless Hacks</a></li>
+</ul>
 
-### ⚡ Projects & Tutorials
-
-- [Wireless Hacks](/projects/wireless)
-
-### 🛠️ Tool Reviews
-
-- [Hacking Tools](/reviews/tools)
-- [My Favorite Exploits](/reviews/exploits)
+<h3 style="text-align: center;">🛠️ Tool Reviews</h3>
+<ul>
+  <li><a href="/reviews/tools">Hacking Tools</a></li>
+  <li><a href="/reviews/exploits">My Favorite Exploits</a></li>
+</ul>
+</div>
 
 ---
 
 ## 👨‍🚀 About Me
 
-I'm an
+<div style="max-width: 700px; margin: 0 auto; text-align: center;">
+I'm an electronics tinkerer and cybersecurity enthusiast who enjoys combining hardware projects with hands-on hacking. I believe in learning by doing and love sharing the ride.
+</div>
 
 ---
 
 ### ☕ Support the Mission
 
+<div style="text-align: center;">
 If you like what I do and want to support more content like this:
 
 [🪙 Donate a Coffee](/donate)
+</div>
 
 ---
 
