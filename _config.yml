@@ -27,8 +27,8 @@ plugins:
   - jekyll-seo-tag
 
 # Footer - UPDATED keys to match layout usage
-footer_left: "© 2025 IndieSpaceViking"
-footer_right: "Privacy Policy"
+#footer_left: "© 2025 IndieSpaceViking"
+#footer_right: "Privacy Policy"
 
 # SEO & Sitemap
 permalink: pretty
