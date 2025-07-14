@@ -44,18 +44,21 @@
     }
 
     .dropdown {
-      float: left;
-      overflow: hidden;
+      position: relative; /* Make dropdown content position relative to this */
+      display: inline-block;
     }
-
+    
     .dropdown-content {
       display: none;
       position: absolute;
+      top: 100%; /* Positions the dropdown *below* the button */
+      left: 0;
       background-color: #202020;
       min-width: 160px;
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
-      z-index: 1;
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+      z-index: 999;
     }
+
 
     .dropdown-content a {
       color: white;
