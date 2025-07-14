@@ -27,7 +27,7 @@ Welcome to **Planet Viking** – the official archive and blog space for:
 </div>
 
 ---
-
+<!--
 ## 🔥 Latest Write-ups
 
 <div style="max-width: 700px; margin: 0 auto;">
@@ -40,9 +40,9 @@ Welcome to **Planet Viking** – the official archive and blog space for:
 
 <p style="text-align: center;"><a href="/writeups">🔎 View All Write-ups</a></p>
 </div>
-
-
 ---
+-->
+
 
 ## 👨‍🚀 About Me
 
