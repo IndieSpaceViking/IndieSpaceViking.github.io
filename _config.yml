@@ -11,9 +11,9 @@ theme: jekyll-theme-midnight
 google_analytics: # Replace with your actual tracking ID
 
 # GitHub Settings
-github:
-  is_project_page: false
-  repository_url: "https://github.com/IndieSpaceViking"
+#github:
+ # is_project_page: false
+ # repository_url: "https://github.com/IndieSpaceViking"
 
 # Author Info
 author:
