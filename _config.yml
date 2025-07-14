@@ -30,6 +30,9 @@ defaults:
     values:
       layout: "default"
       author: *name
+      
+footer_left: "© 2025 IndieSpaceViking"
+footer_right: "Privacy Policy"
 
 # Exclude & Include
 #exclude:
