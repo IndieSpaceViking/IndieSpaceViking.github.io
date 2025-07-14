@@ -13,8 +13,6 @@ description: ""
 
 ## About This Site
 
-<div style="max-width: 700px; margin: 0 auto; text-align: center;">
-
 Welcome to **Planet Viking** – the official archive and blog space for:
 
 - 🧠 Cybersecurity & CTF write-ups  
@@ -46,7 +44,6 @@ Welcome to **Planet Viking** – the official archive and blog space for:
 
 ## 👨‍🚀 About Me
 
-<div style="max-width: 700px; margin: 0 auto; text-align: center;">
 I'm an electronics tinkerer and cybersecurity enthusiast who enjoys combining hardware projects with hands-on hacking. I believe in learning by doing and love sharing the ride.
 </div>
 
@@ -54,7 +51,6 @@ I'm an electronics tinkerer and cybersecurity enthusiast who enjoys combining ha
 
 ### ☕ Support the Mission
 
-<div style="text-align: center;">
 If you like what I do and want to support more content like this:
 
 [🪙 Donate a Coffee](/donate)
