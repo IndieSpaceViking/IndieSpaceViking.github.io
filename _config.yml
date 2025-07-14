@@ -19,14 +19,6 @@ google_analytics: # Replace with your actual tracking ID
 author:
   name: *name
   bio: "Electronics tinkerer, cybersecurity adventurer, and space tech dreamer"
-  email: "youremail@example.com"     # Optional
-  location: "Earth Orbit, Sector 9"  # Optional but fun
-
-# Social Media (used by themes and SEO tags)
-social:
-  github: "IndieSpaceViking"
-  twitter: "ISV_Cyber"              # Replace or remove if not applicable
-  linkedin: "your-linkedin"         # Optional
 
 # Plugins (GitHub Pages-supported)
 plugins:
@@ -50,15 +42,10 @@ defaults:
       author: *name
 
 # Exclude & Include
-exclude:
-  - README.md
-  - LICENSE
-  - Gemfile
-  - Gemfile.lock
-include:
-  - _pages
-
-# Build Settings
-markdown: kramdown
-kramdown:
-  input: GFM
+#exclude:
+ # - README.md
+  #- LICENSE
+  #- Gemfile
+  #- Gemfile.lock
+#include:
+#  - _pages
