@@ -1,17 +1,17 @@
 ---
 layout: default
-title: "Welcome to Planet Viking"
-description: "Planet Viking – a hub for CTF write-ups, electronics projects, tool reviews, and embedded systems tutorials."
+title: ""
+description: ""
 ---
 
 <div style="text-align: center;">
-  <h1>🚀 Welcome to Planet Viking</h1>
-  <p><strong>CTF strategies, embedded systems, cybersecurity adventures, and more.</strong></p>
+  <h1>Coffee Meets code!</h1>
+  <p><strong>Development strategies, embedded systems, cybersecurity adventures, and more.</strong></p>
 </div>
 
 <hr>
 
-## ✨ About This Site
+## About This Site
 
 <div style="max-width: 700px; margin: 0 auto; text-align: center;">
 
