@@ -6,21 +6,17 @@ description: ""
 
 <div style="text-align: center;">
   <h1>Coffee Meets code!</h1>
-  <p><strong>Development strategies, embedded systems, cybersecurity adventures, and more.</strong></p>
 </div>
 
 <hr>
 
-## About This Site
+<div style="text-align: center;">
+  <h1>Welcome to Coffee Meets Code the official archive and blog space for:</h1>
 
-Welcome to **Planet Viking** – the official archive and blog space for:
-
-- 🧠 Cybersecurity & CTF write-ups  
-- ⚡ Electronics & embedded systems projects  
-- 🛠️ Tool reviews and experiments  
-- 📚 Tutorials on tech topics I love  
-
-💬 _"Learning by doing and hacking by curiosity."_
+- Cybersecurity & CTF write-ups  
+- Development strategies 
+- Tool reviews and experiments  
+- Tutorials on tech topics I love  
 
 </div>
 
@@ -42,14 +38,14 @@ Welcome to **Planet Viking** – the official archive and blog space for:
 -->
 
 
-## 👨‍🚀 About Me
+### About Me
 
-I'm an electronics tinkerer and cybersecurity enthusiast who enjoys combining hardware projects with hands-on hacking. I believe in learning by doing and love sharing the ride.
+I am a typical converter of caffeine into code. I like to problem solve, be creative and try to make people smile and laugh along the way. Crypto enthusiast who enjoys coding just as much as I enjoy being in Nature. I believe in learning by doing and love sharing the ride.
 </div>
 
 ---
 
-### ☕ Support the Mission
+### Support the Mission
 
 If you like what I do and want to support more content like this:
 
