@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Coffee coder"
+title: ""
 description: ""
 ---
 
