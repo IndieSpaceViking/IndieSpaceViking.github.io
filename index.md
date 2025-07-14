@@ -13,7 +13,7 @@ description: "Planet Viking – a hub for CTF write-ups, electronics projects, t
 
 ## ✨ About This Site
 
-Welcome to **Planet Viking**, formerly known as **embeddedhacker.com**.  
+Welcome to **Planet Viking** 
 This is the official archive and active blog space for:
 
 - 🧠 Cybersecurity & CTF write-ups  
