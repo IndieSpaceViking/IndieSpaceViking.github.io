@@ -18,7 +18,7 @@ description: Support the mission of Coffee Meets Code
   </p>
 
   <!-- ☕ Buy Me a Coffee Button -->
-  <a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/YOURUSERNAME">
+  <a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/username to be made">
     <img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee">
     <span style="margin-left: 10px;">Buy Me a Coffee</span>
   </a>
@@ -26,7 +26,7 @@ description: Support the mission of Coffee Meets Code
   <br><br>
 
   <!-- 💸 PayPal Donation -->
-  <a href="https://www.paypal.com/donate?hosted_button_id=YOUR_BUTTON_ID" target="_blank" style="font-size: 1.1rem;">
+  <a href="https://www.paypal.com/donate?hosted_button_id=ID to be made" target="_blank" style="font-size: 1.1rem;">
     💸 Donate via PayPal
   </a>
 </div>
