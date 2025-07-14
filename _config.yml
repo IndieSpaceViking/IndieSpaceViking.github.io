@@ -1,8 +1,8 @@
 # Site Settings
 url: "https://indiespaceviking.github.io"
 baseurl: ""  # Leave blank if hosted at root of the GitHub Pages site
-title: "Planet Viking"
-description: "IndieSpaceViking's official hub for cybersecurity, CTF write-ups, electronics tutorials, and space-age creativity."
+title: ""
+description: ""
 name: &name "IndieSpaceViking"
 lang: "en"
 timezone: "UTC"
