@@ -28,35 +28,30 @@
     <div id="container">
 
       <!-- 🔽 Navbar moved here, above the tagline -->
-    <nav class="navbar container">
-      <ul class="nav-menu">
-        <li class="dropdown">
-          <a href="#">Project <i class="fa fa-caret-down"></i></a>
-          <ul class="dropdown-content">
-            <li><a href="https://indiespaceviking.github.io/StellarExplorers/">StellarExplorers</a></li>
-          </ul>
-        </li>
-    
-        <li class="dropdown">
-          <a href="#">Writeups <i class="fa fa-caret-down"></i></a>
-          <ul class="dropdown-content">
-            <li><a href="https://indiespaceviking.github.io/thm/">TryHackMe, THM</a></li>
-          </ul>
-        </li>
-    
-        <li class="dropdown">
-          <a href="#">Review <i class="fa fa-caret-down"></i></a>
-          <ul class="dropdown-content">
-            <li><a href="https://indiespaceviking.github.io/Tools/">Tools</a></li>
-          </ul>
-        </li>
-    
-        <li>
-          <a href="https://indiespaceviking.github.io/donate">Donate</a>
-        </li>
-      </ul>
-    </nav>
+      <nav class="navbar container">
+        <div class="dropdown">
+          <button class="dropbtn">Project <i class="fa fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <a href="https://indiespaceviking.github.io/StellarExplorers/">StellarExplorers</a>
+          </div>
+        </div>
 
+        <div class="dropdown">
+          <button class="dropbtn">Writeups <i class="fa fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <a href="https://indiespaceviking.github.io/thm/">TryHackMe, THM</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="dropbtn">Review <i class="fa fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <a href="https://indiespaceviking.github.io/Tools/">Tools</a>
+          </div>
+        </div>
+
+        <a href="https://indiespaceviking.github.io/donate">Donate</a>
+      </nav>
 
       <!-- ☕ Tagline ("Coffee meets Code") comes after navbar -->
       <p class="tagline">{{ site.description | default: site.github.project_tagline }}</p>
@@ -88,7 +83,8 @@
           <a href="{{ site.github.owner_url }}" class="avatar">
             <img src="{{ site.github.owner_gravatar_url }}" width="48" height="48">
           </a>
-          View <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>
+          View <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a> on
+          <a href="https://www.github.com">GitHub</a>
         </p>
         {% endif %}
       </div>
@@ -100,6 +96,9 @@
         <a href="https://twitter.com/Indie_viking" target="_blank" rel="noopener" aria-label="Twitter / X">
           <i class="fab fa-x-twitter fa-lg"></i>
         </a>
+      </div>
+
+      <div class="footer-bottom">
         <small>{{ site.footer_left }}</small>
         <small><a href="https://indiespaceviking.github.io/privacy">{{ site.footer_right }}</a></small>
       </div>
