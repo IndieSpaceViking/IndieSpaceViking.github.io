@@ -1,9 +1,9 @@
 # Site Settings
-url: "https://CoffeeMeetsCode"
+url: "https://indiespaceviking.github.io/"
 baseurl: ""  # Leave blank if hosted at root of the GitHub Pages site
 title: ""
 description: ""
-name: &name "IndieSpaceViking"
+name: &name "Christoph Walls"
 lang: "en"
 timezone: "UTC"
 show_downloads: false
