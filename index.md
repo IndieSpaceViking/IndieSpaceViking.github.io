@@ -4,14 +4,12 @@ title: ""
 description: ""
 ---
 
-Welcome to Coffee Meets Code the official archive and blog space for:
+### Welcome to Coffee Meets Code the official archive and blog space for:
 
 - Cybersecurity & CTF write-ups  
 - Development strategies 
 - Tool reviews and experiments  
 - Tutorials on tech topics I love  
-
-</div>
 
 ---
 <!--
