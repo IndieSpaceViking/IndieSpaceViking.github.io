@@ -5,7 +5,6 @@ description: "Planet Viking – a hub for CTF write-ups, electronics projects, t
 ---
 
 <div style="text-align: center;">
-  <img src="/assets/img/planet-viking-banner.png" alt="Planet Viking Banner" style="max-width: 100%; border-radius: 12px; margin-bottom: 1.5rem;">
   <h1>🚀 Welcome to Planet Viking</h1>
   <p><strong>CTF strategies, embedded systems, cybersecurity adventures, and more.</strong></p>
 </div>
