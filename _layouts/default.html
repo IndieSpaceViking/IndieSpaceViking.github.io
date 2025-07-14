@@ -13,9 +13,15 @@
   {% seo %}
 
   <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      padding-bottom: 120px; /* Prevent content from being hidden behind the footer */
+    }
+
     .navbar {
       display: flex;
-      justify-content: center; /* Centers navbar items horizontally */
+      justify-content: center;
       align-items: center;
       flex-wrap: wrap;
       background-color: #111;
@@ -24,11 +30,8 @@
       gap: 10px;
     }
 
-    }
-
     .navbar a,
     .dropbtn {
-      float: left;
       font-size: 16px;
       color: white;
       padding: 10px 16px;
@@ -44,21 +47,20 @@
     }
 
     .dropdown {
-      position: relative; /* Make dropdown content position relative to this */
+      position: relative;
       display: inline-block;
     }
-    
+
     .dropdown-content {
       display: none;
       position: absolute;
-      top: 100%; /* Positions the dropdown *below* the button */
+      top: 100%;
       left: 0;
       background-color: #202020;
       min-width: 160px;
       box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
       z-index: 999;
     }
-
 
     .dropdown-content a {
       color: white;
@@ -97,6 +99,50 @@
       max-width: 960px;
       margin: 0 auto;
       padding: 20px;
+    }
+
+    footer.site-footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #111;
+      color: #ccc;
+      text-align: center;
+      padding: 10px 0;
+      font-size: 0.9rem;
+      z-index: 999;
+      border-top: 1px solid #333;
+    }
+
+    .footer-icons {
+      margin: 10px 0;
+    }
+
+    .footer-icons a {
+      color: #ccc;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    .footer-icons a:hover {
+      color: #66ccff;
+    }
+
+    .footer-bottom {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 5px;
+    }
+
+    .footer-bottom a {
+      color: #66ccff;
+      text-decoration: none;
+    }
+
+    .footer-bottom a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
@@ -143,8 +189,22 @@
     </section>
   </main>
 
+  <footer class="site-footer">
+    <hr>
+    <h3>Vortex</h3>
+    <div class="footer-icons">
+      <a href="https://github.com/Indiespaceviking" target="_blank" rel="noopener"><i class="fab fa-github fa-2x"></i></a>
+      <a href="https://twitter.com/Indie_viking" target="_blank" rel="noopener"><i class="fab fa-twitter fa-2x"></i></a>
+    </div>
+    <hr>
+    <div class="footer-bottom">
+      <small>&copy; {{ site.footer_left }}</small>
+      <small><a href="https://IndieSpaceviking.github.io/privacy_policy">{{ site.footer_right }}</a></small>
+    </div>
+  </footer>
+
   {% if site.google_analytics %}
-  <!-- Google Analytics (Universal Analytics is deprecated) -->
+  <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
