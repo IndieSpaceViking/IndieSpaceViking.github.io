@@ -41,27 +41,6 @@ Welcome to **Planet Viking** – the official archive and blog space for:
 <p style="text-align: center;"><a href="/writeups">🔎 View All Write-ups</a></p>
 </div>
 
----
-
-## 🗺️ Explore the Site
-
-<div style="max-width: 700px; margin: 0 auto;">
-<h3 style="text-align: center;">🛡️ Capture The Flag (CTF)</h3>
-<ul>
-  <li><a href="/ctf/tryhackme">TryHackMe (THM)</a></li>
-</ul>
-
-<h3 style="text-align: center;">⚡ Projects & Tutorials</h3>
-<ul>
-  <li><a href="/projects/wireless">Wireless Hacks</a></li>
-</ul>
-
-<h3 style="text-align: center;">🛠️ Tool Reviews</h3>
-<ul>
-  <li><a href="/reviews/tools">Hacking Tools</a></li>
-  <li><a href="/reviews/exploits">My Favorite Exploits</a></li>
-</ul>
-</div>
 
 ---
 
