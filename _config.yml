@@ -1,9 +1,9 @@
 # Site Settings
-url: "https://indiespaceviking.github.io/"
+url: ""
 baseurl: ""  # Leave blank if hosted at root of the GitHub Pages site
 title: ""
 description: ""
-name: &name "Christoph Walls"
+name: &name ""
 lang: "en"
 timezone: "UTC"
 show_downloads: false
