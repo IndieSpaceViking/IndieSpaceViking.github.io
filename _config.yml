@@ -8,12 +8,12 @@ lang: "en"
 timezone: "UTC"
 show_downloads: false
 theme: jekyll-theme-midnight
-google_analytics: # Replace with your actual tracking ID
+google_analytics: YOUR-GA-TRACKING-ID  # Replace with your actual Google Analytics ID
 
 # GitHub Settings
 #github:
- # is_project_page: false
- # repository_url: "https://github.com/IndieSpaceViking"
+#  is_project_page: false
+#  repository_url: "https://github.com/IndieSpaceViking"
 
 # Author Info
 author:
@@ -26,10 +26,9 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Footer
-footer:
-  left: "© 2025 IndieSpaceViking"
-  right: "[Privacy Policy](https://indiespaceviking.github.io/privacy)"
+# Footer - UPDATED keys to match layout usage
+footer_left: "© 2025 IndieSpaceViking"
+footer_right: "Privacy Policy"
 
 # SEO & Sitemap
 permalink: pretty
@@ -43,9 +42,9 @@ defaults:
 
 # Exclude & Include
 #exclude:
- # - README.md
-  #- LICENSE
-  #- Gemfile
-  #- Gemfile.lock
+#  - README.md
+#  - LICENSE
+#  - Gemfile
+#  - Gemfile.lock
 #include:
 #  - _pages
