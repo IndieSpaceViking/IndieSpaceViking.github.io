@@ -4,14 +4,7 @@ title: ""
 description: ""
 ---
 
-<div style="text-align: center;">
-  <h1>Coffee Meets code!</h1>
-</div>
-
-<hr>
-
-<div style="text-align: center;">
-  <h1>Welcome to Coffee Meets Code the official archive and blog space for:</h1>
+Welcome to Coffee Meets Code the official archive and blog space for:
 
 - Cybersecurity & CTF write-ups  
 - Development strategies 
