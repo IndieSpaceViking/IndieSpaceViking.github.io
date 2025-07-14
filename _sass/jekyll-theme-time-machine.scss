@@ -2,6 +2,78 @@
 
 /* Style */
 
+// Horizontal Navbar Styling
+.navbar {
+  background-color: #222;
+  border-top: 3px solid #444;
+  border-bottom: 3px solid #444;
+  padding: 10px 0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.navbar .nav-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.navbar .nav-menu li {
+  position: relative;
+}
+
+.navbar .nav-menu a {
+  color: #d6d6d6;
+  font-weight: bold;
+  padding: 8px 12px;
+  display: inline-block;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.navbar .nav-menu a:hover {
+  background-color: #444;
+  color: #90D355;
+  text-decoration: none;
+}
+
+.navbar .dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  min-width: 180px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  z-index: 99;
+  border-top: 3px solid #63a52a;
+}
+
+.navbar .dropdown-content li {
+  display: block;
+  width: 100%;
+}
+
+.navbar .dropdown-content a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-align: left;
+  font-weight: normal;
+}
+
+.navbar .dropdown-content a:hover {
+  background-color: #444;
+  color: #90D355;
+}
+
+.navbar .dropdown:hover .dropdown-content {
+  display: block;
+}
+
 body {
   font-size: 15px;
   font-family: Arial, Arial, Helvetica, sans-serif;
