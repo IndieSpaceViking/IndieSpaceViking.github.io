@@ -4,7 +4,7 @@ title: ""
 description: ""
 ---
 
-### Welcome to Coffee Meets Code the official archive and blog space for:
+### Welcome to Coffee Meets Code the official archive and blog for:
 
 - Cybersecurity & CTF write-ups  
 - Development strategies 
@@ -32,7 +32,6 @@ description: ""
 ### About Me
 
 I am a typical converter of caffeine into code. I like to problem solve, be creative and try to make people smile and laugh along the way. Crypto enthusiast who enjoys coding just as much as I enjoy being in Nature. I believe in learning by doing and love sharing the ride.
-</div>
 
 ---
 
@@ -41,4 +40,3 @@ I am a typical converter of caffeine into code. I like to problem solve, be crea
 If you like what I do and want to support more content like this:
 
 [🪙 Donate a Coffee](/donate)
-</div>
