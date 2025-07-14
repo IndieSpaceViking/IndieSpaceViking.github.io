@@ -1,0 +1,64 @@
+# Site Settings
+url: "https://indiespaceviking.github.io"
+baseurl: ""  # Leave blank if hosted at root of the GitHub Pages site
+title: "Planet Viking"
+description: "IndieSpaceViking's official hub for cybersecurity, CTF write-ups, electronics tutorials, and space-age creativity."
+name: &name "IndieSpaceViking"
+lang: "en"
+timezone: "UTC"
+show_downloads: false
+theme: jekyll-theme-midnight
+google_analytics: # Replace with your actual tracking ID
+
+# GitHub Settings
+github:
+  is_project_page: false
+  repository_url: "https://github.com/IndieSpaceViking"
+
+# Author Info
+author:
+  name: *name
+  bio: "Electronics tinkerer, cybersecurity adventurer, and space tech dreamer"
+  email: "youremail@example.com"     # Optional
+  location: "Earth Orbit, Sector 9"  # Optional but fun
+
+# Social Media (used by themes and SEO tags)
+social:
+  github: "IndieSpaceViking"
+  twitter: "ISV_Cyber"              # Replace or remove if not applicable
+  linkedin: "your-linkedin"         # Optional
+
+# Plugins (GitHub Pages-supported)
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Footer
+footer:
+  left: "© 2025 IndieSpaceViking"
+  right: "[Privacy Policy](https://indiespaceviking.github.io/privacy)"
+
+# SEO & Sitemap
+permalink: pretty
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+      author: *name
+
+# Exclude & Include
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+include:
+  - _pages
+
+# Build Settings
+markdown: kramdown
+kramdown:
+  input: GFM
