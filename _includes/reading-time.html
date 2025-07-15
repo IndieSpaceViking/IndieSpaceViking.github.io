@@ -1,6 +1,9 @@
-{% capture words %}
-{{ content | number_of_words | minus: 180 }}
-{% endcapture %}
-{% unless words contains '-' %}
-{{ words | plus: 150 | divided_by: 150 | append: ' minutes to read' }}
-{% endunless %}
+{% assign words = content | number_of_words %}
+{% assign minutes = words | divided_by: 200 | ceil %}
+
+{% if minutes == 1 %}
+  <span class="reading-time">☕ 1 min read</span>
+{% else %}
+  <span class="reading-time">☕ {{ minutes }} min read</span>
+{% endif %}
+
