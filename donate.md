@@ -18,10 +18,10 @@ description: Support the mission of Coffee Meets Code
   </p>
 
   <!-- ☕ Buy Me a Coffee Button -->
-  <a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/username to be made">
-    <img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee">
-    <span style="margin-left: 10px;">Buy Me a Coffee</span>
+  <a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/yourusername" style="display: inline-flex; align-items: center; text-decoration: none; background-color: #FFDD00; padding: 10px 20px; border-radius: 5px; color: #000; font-weight: bold;">
+    <img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee" style="height: 34px; width: 35px; margin-right: 10px;">
+    Buy Me a Coffee
   </a>
 
-  <br><br>
-</style>
+</div>
+
